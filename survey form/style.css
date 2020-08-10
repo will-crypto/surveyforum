@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+
+body{
+    background-image: url("./images/blue\ tech.jpg");
+    height: auto; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+p{
+    font-size: 23px;
+}
+form{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+input[type=text]{
+    width: 17rem;
+    height: 2rem;
+    background-color: white;
+}
+#top{
+    float: right;
+}
+input[type=email]{
+    width: 17rem;
+    height: 2rem;
+    background-color: white;
+}
+input[type=number]{
+    width: 17rem;
+    height: 2rem;
+    background-color: white;
+}
+input[type=name]{
+    width: 17rem;
+    height: 2rem;
+    background-color: white;
+}
+#description{
+    text-align: center;
+    color: white;
+}
+#dropdown{
+    align-items: center;
+    height: 2rem;
+    width: 4rem;
+    font-size: 18px;
+}
+#universe{
+    font-size: 23px;
+}

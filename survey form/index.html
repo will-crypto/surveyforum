@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+            type="text/css"
+            href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback survey</title>
+    <h1 id="title">Who is the best superhero</h1>
+</head>
+<body>
+    <h2>please share you'r view on the best superhero</h2>
+    <p id="description">please share with use your favorite hero and how you first saw them</p>
+    <br>
+    <br>
+<form id="survey-form">
+    <label for="name" id="name-label">Your name</label><br>
+    <input type="name" id="name"name="name" placeholder="Enter your name" required><br>
+    <label for="email" id="email-label">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="enter your Email"  required><br>
+    <label for="number" id="number-label">Age(optional)</label><br>
+    <input type="number" name="number" id="number" min="0" max="10" placeholder="Enter your age" required><br>
+    <label id="hname">Favorite hero</label><br>
+    <input type="text" id="hname" name="hname"><br>
+    <br>
+    <h2>how did you see this hero</h2>
+    <label for="comics">Comic's</label>
+    <input type="radio" id="comics" name="radio-choices" value="radio-choices">
+    <br>
+    <label for="movie's">Movie's</label>
+    <input type="radio" id="movie's" name="radio-choices" value="radio-choices">
+    <br>
+    <label for="Tv">Tv show</label>
+    <input type="checkbox" id="Tv" name="Tv" value="check-choices" >
+    <br>
+    <label for="Book">Book's</label>
+    <input type="checkbox" id="Book" name="Book" value="check-choices"><br>
+    <label id="universe">What universe are they from</label><br>
+    <select id="dropdown">
+        <option value="DC">DC</option>
+        <option value="Marvel">Marvel</option>
+    </select>
+    <p>why are they your favorite</p>
+    <textarea name="Description" id="" cols="30" rows="10" placeholder="Your description">
+    </textarea><br>
+    <input type="submit" id="submit" style="width: 110px; height: auto; font-size: 20px; background-color:white;">
+</form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
